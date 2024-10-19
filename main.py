@@ -19,7 +19,7 @@ def scrape(url, headers=HEADERS):
         return None
 
 def extract(source):
-    extractor = selectorlib.Extractor.from_yaml_fil("extract.yaml")
+    extractor = selectorlib.Extractor.from_yaml_file("extract.yaml")
     value = extractor.extract(source)["tours"]
     return value
 
