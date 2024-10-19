@@ -9,9 +9,13 @@ HEADERS = {
 
 def scrape(url, headers=HEADERS):
     """Scrape the page source from the url"""
-    response = requests.get(url, headers=headers)
-    response = response.text
-    return response
+    try:
+        response = requests.get(url, headers=headers)
+        response = response.text
+        return response
+    except requests.exceptions.RequestException as e:
+        print(f"Failed to retrieve data: {e}")
+        return None
 
 def extract(source):
     extractor = selectorlib.Extractor.from_yaml_file("extract.yaml")
