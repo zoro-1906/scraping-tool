@@ -30,3 +30,6 @@ Update the send_email function with your Gmail username and a Gmail app-specific
 This file should contain the configuration for selectorlib to extract data from the scraped webpage. Refer to the website structure you're scraping to properly configure it.
 
 6. Run the script
+
+7. If you need help or encounter any issues:
+Open an issue: Feel free to report bugs or request features on the GitHub issue tracker.
