@@ -8,7 +8,7 @@ Email Alerts: With real-time email notifications, you can stay updated on the go
 
 How users can get started with the project:
 1. Clone the repository:
-git clone https://github.com/yourusername/tour-scraper.git
+https://github.com/zoro-1906/scraping-tool.git
 cd tour-scraper
 
 3. Install dependencies:
