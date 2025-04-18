@@ -1,12 +1,12 @@
-What the project does:
+## What the project does:
 This project scrapes a webpage for information about upcoming music tours and automatically notifies the user via email whenever a new tour event is found. The data for these events is stored in a local SQLite database to avoid repeated notifications for the same event. The script runs periodically, checking for updates and sending an email alert when a new event is detected.
 
-Why the project is useful:
+## Why the project is useful:
 Automated Notifications: Instead of manually checking for new tour events, this project automates the process, ensuring you stay informed about new events without any effort.
 Database Storage: By storing past events in a SQLite database, it prevents repeated alerts for the same event.
 Email Alerts: With real-time email notifications, you can stay updated on the go, without needing to visit the website frequently.
 
-How users can get started with the project:
+## How users can get started with the project:
 1. Clone the repository:
 https://github.com/zoro-1906/scraping-tool.git
 cd tour-scraper
