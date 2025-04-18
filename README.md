@@ -1,3 +1,5 @@
+# Scraping Tool
+
 ## What the project does:
 This project scrapes a webpage for information about upcoming music tours and automatically notifies the user via email whenever a new tour event is found. The data for these events is stored in a local SQLite database to avoid repeated notifications for the same event. The script runs periodically, checking for updates and sending an email alert when a new event is detected.
 
